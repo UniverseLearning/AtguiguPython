@@ -5,7 +5,7 @@ s = '2024'
 n = int(s)
 print(type(s), type(n))
 # 浮点数float-->整数int
-s1 = 2.23
+s1 = 2.93
 print(int(s1))
 # 布尔bool-->整数int
 s2, s3 = True, False
@@ -37,6 +37,8 @@ print(bool(n))
 # float-->bool
 f=0.0
 print(bool(f))
+print(bool('\t'))
+print(bool('\n'))
 
 
 
@@ -57,3 +59,27 @@ print(type(str(a)))
 # 进制的转换
 s = '1a'
 print(int(s, 16))
+
+
+
+
+
+
+# chr(x)	将整数 x 转换为一个字符
+print(chr(98))
+# ord(x)	将一个字符 x 转换为它对应的整数值
+print(ord("b"))
+print(ord('b'))
+# hex(x)	将一个整数 x 转换为一个十六进制字符串
+print(hex(11))
+# oct(x)	将一个整数 x 转换为一个八进制的字符串
+print(oct(11))
+
+
+
+
+
+
+
+
+
